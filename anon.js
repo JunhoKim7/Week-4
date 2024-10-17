@@ -26,6 +26,23 @@ let hi = greet2;
 
 console.log(hi("classmates"));
 
+
+function bye(){
+    console.log("Bye");
+}
+bye();
+
+(()=> console.log("Goodbye"))();
+
+function bePolite(who, what){
+    return what(who);
+}
+console.log(bePolite("classmates", hi));
+console.log(bePolite("classmates", greet));
+console.log(bePolite("classmates", greet2));
+console.log(bePolite("classmates", s=> `night night ${s}`));
+
+
 // function greet(){
 //     console.log("howdy")
 // }
