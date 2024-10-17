@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+    color: palevioletred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+/* input[type=radio]{
+    display: block;
+} */
+
+label{
+    width: 40vw;
+    display: inline-block;
+    white-space: nowrap;
+}
