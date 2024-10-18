@@ -30,7 +30,8 @@ function getReceipt(
     //console.log(arguments);
     
     return `
-        Base Price: $${total.toFixed(2)}
+    <table>
+         Base Price: $${total.toFixed(2)}
         Tax: $${taxAmount.toFixed(2)}
         Total Due: $${totalDue.toFixed(2)}
     `;

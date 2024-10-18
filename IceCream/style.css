@@ -14,3 +14,11 @@ label{
     display: inline-block;
     white-space: nowrap;
 }
+#toppings {
+background-color: antiquewhite;
+}
+#toppings legend{
+    background-color: wheat;
+    color: lightseagreen;
+    padding: 0.5rem;
+}
